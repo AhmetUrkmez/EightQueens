@@ -4,7 +4,7 @@ This problem was solved using GA.
 
 **Objective Function**
 
-$MinZ = \sum_{j=1}^7 \sum_{k=j+1}^8 C_{jk}$ and $C_{jk} \in \{0, 1\}$
+$MinZ = \sum_{j=1}^7 \sum_{k=j+1}^8 C_{jk}$ and $C_{jk} \in $\{0, 1\}
 
 **Components of Algorithm**
 
