@@ -20,6 +20,10 @@ $MinZ = Iteration$
 
 **Benchmark Results**
 
+```r
+GA(50, 0.95, 0.95)
+```
+
 | Selection Type | Crossover Type | Descriptive Statistics | Time | Trials
 | --- | --- | --- | --- | --- |
 | Roulette | Order One | Mean: $6.84$ <br> Variance: $38.9$ <br> Max: $66$ <br> Min: $1$ | 21.4 secs | 1000 |
