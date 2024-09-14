@@ -68,14 +68,14 @@ CrossOver <- function(offspring, N, p.cross) {
 }
 
 Mutation <- function(offspring, N, p.mutation) {
-    chromatide <- sample(N)
+    chromosome <- sample(N)
     
     for(i in 1: N) {
         if(runif(1) < p.mutation) {
             index <- sample(8, 2)
-            dummy <- offspring[chromatide[i], ]
-            offspring[chromatide[i], ][index[1]] <- offspring[chromatide[i], ][index[2]]
-            offspring[chromatide[i], ][index[2]] <- dummy[index[1]]
+            dummy <- offspring[chromosome[i], ]
+            offspring[chromosome[i], ][index[1]] <- offspring[chromosome[i], ][index[2]]
+            offspring[chromosome[i], ][index[2]] <- dummy[index[1]]
         }
     }
     
