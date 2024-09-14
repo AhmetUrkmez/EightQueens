@@ -139,7 +139,7 @@ Benchmark <- function(...) {
                 "var.iter" = var(iter),
                 "max.iter" = max(iter),
                 "min.iter" = min(iter),
-                "time" = c(end-start)))
+                "time" = c(end - start)))
 }
 
 Benchmark()
